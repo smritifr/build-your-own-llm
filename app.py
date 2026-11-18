@@ -9,7 +9,7 @@ from peft import PeftModel
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
 
-ART = Path(__file__).parent / "artifacts"
+ART = Path(__file__).parent 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
 # ---------------------------------------------------------------------
